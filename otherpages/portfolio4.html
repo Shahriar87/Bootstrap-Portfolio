@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>About Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Allerta|Righteous" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+
+        <style>
+
+            .portfolio {
+                float: left;
+                overflow: auto;
+                position: relative;
+                margin-bottom:30px;
+
+            }
+            .PortImg{
+                float: left;
+                margin-bottom: 20px;
+                margin-right: 80px;
+                border: 0;
+                height: 194px;
+                width: 250px;
+            }
+
+            .label{
+                position: absolute;
+                bottom: 12px;
+                background: #4aaaa5;
+                color: white;
+                font-size: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                width: 250px;
+                text-align: center;
+            }
+
+            .portfolio:hover{
+                -ms-transform: rotate(-10deg);
+                -webkit-transform: rotate(-10deg);
+                -moz-transform: rotate(-10deg);
+                -o-transform: rotate(-10deg);
+                transform: rotate(-10deg);
+            }
+            #more {display: none;}
+        </style>
+
+</head>
+<body style="background: url(../images/background-canvas.jpg)">
+    <header>
+        <div class="row navbar-dark bg-dark">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-5">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+                    <h1 class="text-xl-center navbar-brand bg-info p-2">Shahriar Firoz</h1>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>   
+            
+            <div class="col-lg-5">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mr-5">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html">About<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Portfolios
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="portfolio1.html">Portfolio 1</a>
+                                    <a class="dropdown-item" href="portfolio2.html">Portfolio 2</a>
+                                    <a class="dropdown-item" href="portfolio3.html">Portfolio 3</a>
+                                    <a class="dropdown-item" href="portfolio4.html">Portfolio 4</a>
+                                    <a class="dropdown-item" href="portfolio5.html">Portfolio 5</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item border-top" href="../portfolio.html">Portfolio Lists</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-1">
+            </div>
+        </div>
+    
+    </header>
+
+   
+    <div class="container bg-white mt-5">
+        <div class="row">
+            <div class="col-lg text-info border-bottom border-secondary">
+                <h2 style="font-family:'Righteous', cursive;">HW-Wirefram</h2>
+            </div>
+            
+        </div>
+        <div class="row mt-3">
+            
+            <div class="col-lg-4">
+                <div class="portfolio">
+
+                    <a href="https://github.com/Shahriar87/HW-Wireframe" target="_blank">
+                        <img class="img-fluid PortImg rounded float-left" src="../images/Easier-Layout.png" alt="HW-Wireframe">
+                    </a>
+                    <p class="label">HW-Wireframe!</p>     
+
+                </div>
+            </div>
+            <div class="col-lg-8" style="font-family:'Allerta', sans-serif;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nec tincidunt eros. Phasellus et dolor luctus, pulvinar risus quis, maximus lectus. 
+
+                            
+                    </p>
+                    
+    
+                    <p>Nam eu sollicitudin erat. Quisque et nisl dignissim, lacinia dui at, congue nisi.<span id="dots">...</span><span id="more">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse ligula orci, lobortis ut aliquam eu, pretium vel tellus. Nam sit amet libero felis. Vestibulum pharetra lacinia dolor. Aenean in feugiat velit. Nulla bibendum dapibus porta. Aliquam gravida metus metus, et venenatis velit imperdiet at. Maecenas auctor massa massa, sit amet tincidunt risus convallis nec. 
+                        
+                    Aliquam sed sagittis risus.
+                                
+                    Vivamus euismod nunc ex, sit amet dictum nunc eleifend at. Quisque ac interdum lacus. Praesent tristique, velit id varius bibendum, turpis erat laoreet libero, quis fermentum leo mi eu diam. Maecenas non nunc placerat, faucibus nibh eu, posuere massa. Donec at vehicula eros, non ultrices velit. Cras gravida ipsum sed eros varius lacinia. Duis sem arcu, lobortis non scelerisque sit amet, fermentum in urna. Integer sollicitudin mollis arcu, eget varius sem placerat ac. Proin placerat malesuada lacus dignissim condimentum. Maecenas non nulla eget nunc viverra mollis. Nam porta leo et lectus suscipit varius sit amet at augue. In hac habitasse platea dictumst. Ut ante justo, tincidunt viverra pretium a, blandit sodales ligula. 
+                    </span></p>
+
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
+                    
+                    <h3 class="mt-2">Check out the code <a href="https://github.com/Shahriar87/HW-Wireframe" target="_blank">Here!</a></h3>
+                    
+            </div>
+            
+        </div>
+    </div> 
+
+    <footer class="bg-secondary text-white mt-5 border-top border-info">
+            <div class="container-fluid py-3">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p>Copyright &copy;</p>
+                    </div>
+                </div>
+            </div>
+    </footer>
+       
+    
+
+    
+</body>
+</html>
