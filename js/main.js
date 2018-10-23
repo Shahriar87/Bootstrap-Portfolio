@@ -17,7 +17,6 @@ function main() {
         }
       });
 
-	
     // Show Menu on Book
     $(window).bind('scroll', function() {
         var navHeight = $(window).height() - 500;
@@ -70,8 +69,7 @@ function main() {
 
     });
 	
-
-    // Nivo Lightbox 
+    // Nivo Lightbox Slidedown animation
     $('.portfolio-item a').nivoLightbox({
             effect: 'slideDown',  
             keyboardNav: true,                            
